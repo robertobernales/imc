@@ -1,0 +1,89 @@
+body
+{
+    background-color: cadetblue;
+    background-image: url(thi-hic-body-mass-index.jpg);
+    background-position: 0;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container
+{
+    background-color: gainsboro;
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 15px;
+}
+.title
+{
+    background: darkgrey;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.txt
+{
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+.num
+{
+    font-size: 18px;
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+}
+.message
+{
+    text-align: center;
+    background: darkgrey;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 8px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn
+{
+    text-align: center;
+    padding-top: 15px;
+}
+.button /* boton normal */
+{
+    font-size: large;
+    cursor: pointer;
+    padding: 7px;
+    background-color: darkgrey;
+    border-radius: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button:hover /* hover del boton*/
+{ 
+    font-size: large;
+    cursor: pointer;
+    padding: 7px;
+    background-color: dimgrey;
+    border-radius: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
